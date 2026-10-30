@@ -48,7 +48,7 @@ export default defineConfig({
       }
     })
   ],
-  base: '/',
+  base: '/test/',
   build: {
     emptyOutDir: true, // Force clean dist
     rollupOptions: {
