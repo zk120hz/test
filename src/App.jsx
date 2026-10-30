@@ -591,7 +591,7 @@ function App() {
   const MarkRead = markLessonRead;
 
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/test">
       {/* GLOBAL SYNC TOAST */}
       {syncStatus && (
         <div
